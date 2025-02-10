@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firestore Input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Management</h1>
+    </header>
+
+    <main>
+        <section>
+            <!---<div>------>
+            <h2>Add Student</h2>
+            <form id="student-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter Name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter Email" required>
+                
+                <button type="submit">Add Student</button>
+            </form>
+        </section>
+        <!----</div>----->
+
+        <section id="display-section" class="scrollable">
+            <h2>Student List</h2>
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Search students...">
+            </div>
+            <ul id="student-list" class="item-list">
+                <!-- Student data will be dynamically inserted here -->
+            </ul>
+        </section>
+    </main>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>

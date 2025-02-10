@@ -1,0 +1,14 @@
+.scrollable {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.item-list {
+    list-style-type: none;
+    padding: 0;
+}
+.item-list li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
